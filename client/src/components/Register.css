@@ -1,0 +1,67 @@
+ @import './login.css';
+
+.container {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
+.form {
+  width: 50%;
+  margin: auto;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #f0f4f8;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #a0aec0;
+}
+
+.button {
+  background-color: black;
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+.loginText {
+  text-align: center;
+  color: #4a5568;
+  margin-top: 1rem;
+}
+
+.loginLink {
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
+
+.smaller-box {
+  width: 25%;
+  height: 800%; 
+  margin: auto;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ 
