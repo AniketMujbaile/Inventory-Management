@@ -4,7 +4,9 @@ import { useNavigate } from 'react-router';
 import './login.css';
 
 const Login = () => {
-  const Url = 'http://localhost:8000';
+  //const Url = 'http://localhost:8000';
+  const Url = 'https://inventory-management-di5j.onrender.com';
+
   const navigate = useNavigate();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');

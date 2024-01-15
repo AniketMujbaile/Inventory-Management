@@ -9,7 +9,8 @@ const Dashboard = () => {
   const [mfgDate, setMfgDate] = useState("");
   const [items, setItems] = useState([]);
 
-  const Url = "http://localhost:8000";
+  //const Url = "http://localhost:8000";
+  const Url = "https://inventory-management-di5j.onrender.com";
   const token = localStorage.getItem('todoToken');
 
   const fetchItems = async () => {
